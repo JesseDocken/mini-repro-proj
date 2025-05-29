@@ -1,0 +1,27 @@
+{
+  "name": "mini-repro-proj",
+  "version": "1.0.0",
+  "description": "Reproduces an issue observed with eslint-plugin-import-x.",
+  "main": "app/index.js",
+  "author": "Jesse Docken",
+  "license": "Unlicense",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "module-alias": "^2.2.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "@typescript-eslint/parser": "^8.33.0",
+    "eslint": "^9.27.0",
+    "eslint-import-resolver-typescript": "^4.4.1",
+    "eslint-plugin-import-typescript": "^0.0.4",
+    "eslint-plugin-import-x": "^4.13.3",
+    "globals": "^16.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.33.0"
+  },
+  "_moduleAliases": {
+    "@base": "./dist/"
+  }
+}
